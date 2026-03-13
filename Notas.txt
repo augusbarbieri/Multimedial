@@ -33,3 +33,24 @@ Los elementos HTML se delinean mediante etiquetas, escritas usando paréntesis a
 HTML conforma la **estructura** o el "esqueleto" de una página web. Generalmente trabaja en conjunto con:
 1. **CSS (Cascading Style Sheets)**: encargado de la apariencia y diseño visual.
 2. **JavaScript**: encargado de la interactividad y comportamiento dinámico.
+
+## 13 de Marzo de 2026: Resumen de actividades
+El día de hoy estuvimos trabajando en sentar las bases de nuestro proyecto web, dividiendo el trabajo en tres etapas fundamentales:
+
+### 1. Documentación y Bases de HTML
+Comenzamos estructurando nuestros conocimientos en este archivo de notas. Aprendimos que:
+- **HTML** es el lenguaje que le da la estructura básica a cualquier página web.
+- Vimos las etiquetas fundamentales como `<html>`, `<head>`, `<body>`, `<h1>`, y `<p>`.
+- Entendimos la estructura universal de un documento web, incluyendo el uso de `<!DOCTYPE html>`, las etiquetas meta y el título de la pestaña.
+
+### 2. Integración de CSS al HTML
+Pusimos en práctica la separación de responsabilidades en la web:
+- Teníamos un archivo HTML inicial (`PrimerIntento.html`) y aprendimos cómo conectarle un archivo de estilos externo (`estilos.css`).
+- Para esto, utilizamos la etiqueta `<link rel="stylesheet" href="estilos.css">` dentro de la sección `<head>` de nuestro documento. 
+- Comprendimos que el HTML es el "esqueleto" y el CSS es el "diseño y vestimenta" de nuestra página web.
+
+### 3. Control de Versiones con Git y GitHub
+Para asegurar nuestro trabajo y tener un registro de los cambios, subimos nuestro proyecto a la nube:
+- Inicializamos un repositorio local usando comandos de Git (`git init`).
+- Nos aseguramos de tener la herramienta oficial de GitHub (`gh`) instalada para facilitar la conexión.
+- Subimos toda la carpeta "Multimedial" de forma remota, permitiendo que nuestro código esté respaldado, versionado y listo para ser compartido o continuado desde cualquier otra computadora.

@@ -1,0 +1,35 @@
+Aca van a ir las notas...Si las tuviera
+
+## Qué es HTML
+HTML (HyperText Markup Language o Lenguaje de Marcado de Hipertexto) es el código que se utiliza para estructurar y desplegar una página web y sus contenidos. No es un lenguaje de programación, sino un lenguaje de marcado que le dice al navegador cómo debe mostrar el contenido.
+
+### Elementos Básicos
+Los elementos HTML se delinean mediante etiquetas, escritas usando paréntesis angulares (<>).
+
+- `<html>`: El elemento raíz de una página HTML.
+- `<head>`: Contiene meta-información sobre el documento (como el título de la pestaña).
+- `<body>`: Contiene el contenido visible (texto, imágenes, enlaces, etc.).
+- `<h1>` a `<h6>`: Encabezados, siendo h1 el más importante.
+- `<p>`: Párrafos de texto.
+- `<a>`: Enlaces hacia otras páginas u otros lugares en la misma página con el atributo `href`.
+- `<img>`: Imágenes usando el atributo `src`.
+
+### Estructura de un Documento HTML
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Título de la Página</title>
+</head>
+<body>
+    <h1>Bienvenido a la materia</h1>
+    <p>Este es el comienzo de nuestras notas sobre Desarrollo Multimedia.</p>
+</body>
+</html>
+```
+
+### El rol del HTML
+HTML conforma la **estructura** o el "esqueleto" de una página web. Generalmente trabaja en conjunto con:
+1. **CSS (Cascading Style Sheets)**: encargado de la apariencia y diseño visual.
+2. **JavaScript**: encargado de la interactividad y comportamiento dinámico.
